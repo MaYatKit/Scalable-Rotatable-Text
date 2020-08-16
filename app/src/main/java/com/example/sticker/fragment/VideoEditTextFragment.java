@@ -101,11 +101,11 @@ public class VideoEditTextFragment extends Fragment implements View.OnClickListe
         if (mLastTextPosition != position) {
             replaceBitmapByPosition(position, R.color.video_edit_tool_text_select_color);
             int defaultColor = R.color.white;
-            if (mLastTextPosition == 27) {
+            if (mLastTextPosition == 4) {
                 defaultColor = R.color.mybea_font_color;
-            } else if (mLastTextPosition == 28) {
+            } else if (mLastTextPosition == 5) {
                 defaultColor = R.color.subtitle1_font_color;
-            } else if (mLastTextPosition == 31) {
+            } else if (mLastTextPosition == 8) {
                 defaultColor = R.color.title2_font_color;
             }
             replaceBitmapByPosition(mLastTextPosition, defaultColor);
@@ -169,11 +169,11 @@ public class VideoEditTextFragment extends Fragment implements View.OnClickListe
         if (mLastTextPosition != position) {
             replaceBitmapByPosition(position, R.color.video_edit_tool_text_select_color);
             int defaultColor = R.color.white;
-            if (mLastTextPosition == 27) {
+            if (mLastTextPosition == 4) {
                 defaultColor = R.color.mybea_font_color;
-            } else if (mLastTextPosition == 28) {
+            } else if (mLastTextPosition == 5) {
                 defaultColor = R.color.subtitle1_font_color;
-            } else if (mLastTextPosition == 31) {
+            } else if (mLastTextPosition == 8) {
                 defaultColor = R.color.title2_font_color;
             }
             replaceBitmapByPosition(mLastTextPosition, defaultColor);

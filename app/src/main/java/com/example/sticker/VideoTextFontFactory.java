@@ -34,6 +34,7 @@ public class VideoTextFontFactory {
         result.add(getFont("PERMANENT", 14, "PermanentMarker-Regular.ttf", "PERMANENT", R.color.white));
         result.add(getFont("BOLDFONT", 17, "boldfont.ttf", "BOLDFONT", R.color.white));
 
+        result.add(getFontMyBea());
         result.add(getFontSubTitle1());
         result.add(getFontSubTitle2());
         result.add(getFontTitle1());
