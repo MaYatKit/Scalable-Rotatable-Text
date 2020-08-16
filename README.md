@@ -2,11 +2,10 @@
 
 Editable, scalable and rotatable text stickers which support different typefaces and backgrounds.<br/>
 
-Basic operations:<br/>
-<img title="Basic operations" width="700" src="rotate_scale.gif">
+Basic operations and different styles:<br/>
+<img title="Basic operations" width="200" src="rotate_scale.gif">  <img title="Basic operations" width="200" src="multi_style.gif">
 
-Different styles:<br/>
-<img title="Basic operations" width="700" src="multi_style.gif">
+
 
 
 
