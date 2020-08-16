@@ -1,0 +1,28 @@
+<resources>
+    <dimen name="edit_text_input_space">20dp</dimen>
+    <dimen name="edit_text_space">18dp</dimen>
+
+    <dimen name="dialog_common_padding_top">38dp</dimen>
+    <dimen name="dialog_common_content_padding_bottom">38dp</dimen>
+    <dimen name="dialog_common_content_padding_horizontal">22dp</dimen>
+    <dimen name="dialog_common_title_size">16sp</dimen>
+    <dimen name="dialog_common_detail_size">14sp</dimen>
+    <dimen name="dialog_common_button_text_size">14sp</dimen>
+
+    <dimen name="common_margin">20dp</dimen>
+    <dimen name="text_control_point_margin">72dp</dimen>
+    <dimen name="text_margin">48dp</dimen>
+    <dimen name="text_control_point_width">48dp</dimen>
+    <dimen name="text_control_point_height">48dp</dimen>
+    <dimen name="text_control_point_width2">26dp</dimen>
+    <dimen name="text_control_point_height2">26dp</dimen>
+    <dimen name="text_rotate_point_width">19dp</dimen>
+    <dimen name="text_rotate_point_height">19dp</dimen>
+
+    <dimen name="video_edit_bottom_height2">244dp</dimen>
+    <dimen name="video_edit_text_dialog_margin">30dp</dimen>
+    <dimen name="video_edit_text_dialog_bottom_img_padding">16dp</dimen>
+    <dimen name="video_edit_text_dialog_text_size">16sp</dimen>
+    <dimen name="video_edit_text_dialog_bottom_ll_height">54dp</dimen>
+
+</resources>

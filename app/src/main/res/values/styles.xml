@@ -1,0 +1,146 @@
+<resources>
+
+
+    <declare-styleable name="ShotButton">
+        <attr name="roundRaidus" format="dimension" />
+        <attr name="roundOutWidth" format="dimension" />
+        <attr name="roundOutColor" format="color" />
+        <attr name="roundFromColor" format="color" />
+        <attr name="roundToColor" format="color" />
+        <attr name="bubbleFromColor" format="color" />
+        <attr name="bubbleToColor" format="color" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="AutofitTextView">
+        <attr name="minTextSize" format="dimension" />
+        <attr name="precision" format="float" />
+        <attr name="sizeToFit" format="boolean" />
+    </declare-styleable>
+
+    <style name="base_dialog_theme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/animation_baseDialog</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="dialog_common_button_cancel">
+        <item name="android:textSize">@dimen/dialog_common_button_text_size</item>
+        <item name="android:fontFamily">@string/font_families_roboto</item>
+        <item name="android:textColor">@color/common_main_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="dialog_common_button_ok">
+        <item name="android:textSize">@dimen/dialog_common_button_text_size</item>
+        <item name="android:fontFamily">@string/font_families_roboto</item>
+        <item name="android:textColor">@color/common_alert_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="dialog_theme_without_animation" parent="@style/base_dialog_theme">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowFullscreen">@null</item>>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+    <style name="dialog_common_detail">
+        <item name="android:textSize">@dimen/dialog_common_detail_size</item>
+        <item name="android:fontFamily">@string/font_families_roboto</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="dialog_common_title">
+        <item name="android:textSize">@dimen/dialog_common_title_size</item>
+        <item name="android:fontFamily">@string/font_families_roboto</item>
+        <item name="android:textColor">@color/common_main_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="animation_baseDialog" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/base_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/base_dialog_exit</item>
+    </style>
+
+
+    <declare-styleable name="MultiToggleImageButton">
+        <attr name="imageIds" format="reference" />
+        <attr name="contentDescriptionIds" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="GifTextureView">
+        <attr name="gifSource" format="reference|string" />
+        <attr name="isOpaque" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="GifView">
+        <attr name="freezesAnimation" format="boolean" />
+        <attr name="loopCount" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_outside_color" format="color" />
+        <attr name="border_inside_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeSeekBar">
+        <attr name="absoluteMinValue" format="integer|float" />
+        <attr name="absoluteMaxValue" format="integer|float" />
+        <attr name="singleThumb" format="boolean" />
+        <attr name="showLabels" format="boolean" />
+        <attr name="alwaysActive" format="boolean" />
+        <attr name="valuesAboveThumbs" format="boolean" />
+        <attr name="internalPadding" format="dimension" />
+        <attr name="barHeight" format="dimension" />
+        <attr name="defaultColor" format="color" />
+        <attr name="activeColor" format="color" />
+        <attr name="textAboveThumbsColor" format="color" />
+        <attr name="thumbNormal" format="reference" />
+        <attr name="thumbPressed" format="reference" />
+        <attr name="thumbDisabled" format="reference" />
+        <attr name="thumbShadow" format="boolean" />
+        <attr name="thumbShadowColor" format="color" />
+        <attr name="thumbShadowXOffset" format="dimension" />
+        <attr name="thumbShadowYOffset" format="dimension" />
+        <attr name="thumbShadowBlur" format="dimension" />
+        <attr name="activateOnDefaultValues" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TrimRangeSeekBar">
+        <attr name="trimAbsoluteMinValue" format="integer|float" />
+        <attr name="trimAbsoluteMaxValue" format="integer|float" />
+        <attr name="trimThumbLeft" format="reference" />
+        <attr name="trimThumbRight" format="reference" />
+        <attr name="trimBarHeight" format="dimension" />
+        <attr name="trimInternalPadding" format="dimension" />
+    </declare-styleable>
+    <eat-comment />
+
+
+    <declare-styleable  name="SpecifiedTextView">
+        <attr name="typeface" format="string"/>
+    </declare-styleable >
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="common_alert_color">#fc4e7b</color>
+    <color name="common_main_text">#434A54</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+
+    <color name="edit_text_background_color">#d9000000</color>
+
+    <color name="common_dialog_new_bg">#32363e</color>
+    <color name="common_dialog_new_outside_bg">#d9000000</color>
+    <color name="common_diver_color">#0fffffff</color>
+    <color name="title1_font_color">#ffffff</color>
+    <color name="title2_font_color">#333333</color>
+    <color name="mybea_font_color">#454545</color>
+    <color name="mybea_font_stroke_color">#ffffff</color>
+    <color name="subtitle2_font_color">#ffffff</color>
+    <color name="subtitle1_font_color">#231f20</color>
+    <color name="empty_font_stroke_color">#ffffff</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="video_edit_bottom_tab_bg">#2a2b2f</color>
+    <color name="video_edit_bottom_panel_bg">#232428</color>
+    <color name="video_edit_text_dialog_select_bg">#666</color>
+    <color name="video_edit_tool_text_select_color">#FF238BFF</color>
+
+
+</resources>

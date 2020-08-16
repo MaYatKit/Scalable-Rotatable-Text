@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="font_families_roboto">sans-serif</string>
+    <string name="font_current_style">Montserrat-Regular.ttf</string>
+</resources>

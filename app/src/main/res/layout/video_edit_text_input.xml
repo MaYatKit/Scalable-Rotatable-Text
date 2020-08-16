@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/edit_text_background_color">
+
+
+    <!--</LinearLayout>-->
+    <include
+        android:id="@+id/text_edit_bootom_layout"
+        layout="@layout/shot_confirm_button_layout"/>
+
+    <!--<TextView-->
+    <!--android:id="@+id/text_edit_title"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/back_img"-->
+    <!--android:layout_gravity="left"-->
+    <!--android:layout_marginBottom="@dimen/edit_text_input_space"-->
+    <!--android:layout_marginLeft="@dimen/edit_text_input_space"-->
+    <!--android:layout_marginStart="@dimen/edit_text_input_space"-->
+    <!--android:layout_marginTop="@dimen/edit_text_input_space"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:maxEms="120"-->
+    <!--android:text="@string/edit_text_input_title"-->
+    <!--android:textColor="@color/edit_text_input_color"-->
+    <!--android:textSize="@dimen/edit_text_input_title" />-->
+
+    <ScrollView
+        android:id="@android:id/keyboardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/text_edit_bootom_layout"
+        android:layout_marginEnd="@dimen/edit_text_input_space"
+        android:layout_marginStart="@dimen/edit_text_input_space"
+        android:layout_marginTop="@dimen/edit_text_input_space"
+        android:background="@android:color/transparent">
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_below="@id/text_edit_title"-->
+        <!--android:layout_above="@id/confirm_button">-->
+
+        <EditText
+            android:id="@android:id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/video_edit_text_dialog_margin"
+            android:layout_marginEnd="@dimen/video_edit_text_dialog_margin"
+            android:background="@android:color/transparent"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/video_edit_text_dialog_select_bg"
+            android:textCursorDrawable="@null"
+            android:textSelectHandleLeft="@drawable/text_select_handler_left"
+            android:textSize="@dimen/video_edit_text_dialog_text_size" />
+        <!--android:layout_above="@id/confirm_button"-->
+        <!--android:layout_below="@id/text_edit_title"-->
+        <!--android:layout_marginBottom="@dimen/edit_text_input_space"-->
+        <!--android:layout_marginLeft="@dimen/edit_text_input_space"-->
+    </ScrollView>
+
+
+</RelativeLayout>

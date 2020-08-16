@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SwipeDeck">
+        <attr name="max_visible" format="integer"/>
+        <attr name="rotation_degrees" format="float"/>
+        <attr name="card_spacing" format="dimension"/>
+        <attr name="card_scale" format="float"/>
+        <attr name="render_above" format="boolean"/>
+        <attr name="render_below" format="boolean"/>
+        <attr name="opacity_end" format="float"/>
+        <attr name="card_gravity" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="bottom" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <attr name="wGallery_gravity" format="integer"/>
+
+    <attr name="wGallery_animationDuration" format="integer"/>
+
+    <attr name="wGallery_unselectedAlpha" format="float"/>
+
+    <attr name="wGallery_spacing" format="dimension"/>
+
+    <attr name="wGallery_selectedScale" format="float"/>
+
+    <declare-styleable name="RoundRectImageView">
+
+        <attr name="round_corner_radius" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="ScaledImageButton">
+
+        <attr name="percent_x" format="float"/>
+
+        <attr name="percent_y" format="float"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="IndeterminateProgress">
+        <attr name="progress_color" format="color"/>
+        <attr name="progress_thickness" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="HorizontalSpaceTextView">
+        <attr name="letter_space" format="integer"/>
+        <attr name="letter_typeface" format="string"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ZoomTypeFaceTextView">
+        <attr name="typeFace" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="GenerateVideoProgressDialog" >
+        <attr name="dialog_title" format="string"/>
+        <attr name="dialog_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="AsyncProgressView">
+        <attr name="progressbar_radius" format="dimension"/>
+
+        <attr name="progressbar_color" format="color"/>
+
+        <attr name="progressbar_size" format="dimension"/>
+
+        <attr name="progress_text" format="string"/>
+
+        <attr name="progress_textcolor" format="color"/>
+
+        <attr name="progress_textsize" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="ZoomInLayout">
+        <attr name="ziReverse" format="boolean"/>
+        <attr name="ziSizeOutside" format="dimension"/>
+        <attr name="ziSizeInside" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SubscribeSpecTab">
+        <!-- Sets a drawable -->
+        <attr name="sstIconSrc" format="reference|color" />
+        <attr name="sstTickSrc" format="reference|color" />
+
+        <attr name="sstText" format="string" />
+        <attr name="sstActiveColor" format="color" />
+        <attr name="sstInactiveColor" format="color" />
+        <attr name="sstAnimationDuration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SeekBarView">
+        <attr name="maxProgress" format="integer"/>
+        <attr name="minProgress" format="integer"/>
+        <attr name="centerState" format="boolean"/>
+
+        <attr name="backColor" format="color"/>
+        <attr name="backHeight" format="dimension"/>
+
+        <attr name="backFrameColor" format="color"/>
+        <attr name="backFrameSize" format="dimension"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="progressHeight" format="dimension"/>
+        <attr name="progressMinusColor" format="color"/>
+
+        <attr name="progress" format="integer"/>
+        <attr name="thumbNormalRadius" format="dimension"/>
+
+        <attr name="thumbPressRadius" format="dimension"/>
+        <attr name="thumbColor" format="color"/>
+
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+
+        <attr name="textBackColor" format="color"/>
+        <attr name="textBackRadius" format="dimension"/>
+        <attr name="textLocation" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShimmerFrameLayout">
+        <attr name="shimmer_clip_to_children" format="boolean"/>
+        <attr name="shimmer_colored" format="boolean"/>
+        <attr name="shimmer_base_color" format="color"/>
+        <attr name="shimmer_highlight_color" format="color"/>
+        <attr name="shimmer_base_alpha" format="float"/>
+        <attr name="shimmer_highlight_alpha" format="float"/>
+        <attr name="shimmer_auto_start" format="boolean"/>
+        <attr name="shimmer_duration" format="integer"/>
+        <attr name="shimmer_repeat_count" format="integer"/>
+        <attr name="shimmer_repeat_delay" format="integer"/>
+        <attr name="shimmer_repeat_mode" format="enum">
+            <enum name="restart" value="1"/>
+            <enum name="reverse" value="2"/>
+        </attr>
+        <attr name="shimmer_direction" format="enum">
+            <enum name="left_to_right" value="0"/>
+            <enum name="top_to_bottom" value="1"/>
+            <enum name="right_to_left" value="2"/>
+            <enum name="bottom_to_top" value="3"/>
+        </attr>
+        <attr name="shimmer_dropoff" format="float"/>
+        <attr name="shimmer_fixed_width" format="dimension"/>
+        <attr name="shimmer_fixed_height" format="dimension"/>
+        <attr name="shimmer_intensity" format="float"/>
+        <attr name="shimmer_width_ratio" format="float"/>
+        <attr name="shimmer_height_ratio" format="float"/>
+        <attr name="shimmer_shape" format="enum">
+            <enum name="linear" value="0"/>
+            <enum name="radial" value="1"/>
+        </attr>
+        <attr name="shimmer_tilt" format="float"/>
+    </declare-styleable>
+    
+    <declare-styleable name="BannerViewPager_attrs">
+        <attr name="bannerResId" format="reference"/>
+    </declare-styleable>
+</resources>
