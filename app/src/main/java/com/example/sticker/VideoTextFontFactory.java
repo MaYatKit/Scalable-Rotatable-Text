@@ -221,13 +221,7 @@ public class VideoTextFontFactory {
         return textBean;
     }
 
-    /**
-     * 针对有些有行数限制的文本，通过计算最大的文本高度实现行数控制
-     *
-     * @param typeface
-     * @param maxLineCount
-     * @return
-     */
+   
     private int getMaxTextRectHeight(String typeface, int maxLineCount) {
         TextPaint textPaint = new TextPaint();
         textPaint.setTextSize(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, mDefaultMinTextSize, mContext.getResources
@@ -240,67 +234,5 @@ public class VideoTextFontFactory {
         return textHeight * maxLineCount + (int) (textHeight * 0.9f) * (maxLineCount - 1);
     }
 
-//    public List<TextBean> getEmoji(String startPath, int size) {
-//        List<TextBean> tempList = new ArrayList<>();
-//        for (int i = 1; i <= size; i++) {
-//            TextBean textBean = new TextBean();
-//            textBean.setDefaultWidth(dip2px(mContext, 90));
-//            textBean.setDefaultHeight(dip2px(mContext, 90));
-//            if (i < 10) {
-//                textBean.setBackgroundRes(mContext.getResources().getIdentifier(startPath + "0" + i, "drawable", mContext
-//                        .getPackageName()));
-//            } else {
-//                textBean.setBackgroundRes(mContext.getResources().getIdentifier(startPath + i, "drawable", mContext
-//                        .getPackageName()));
-//            }
-//            textBean.setName(startPath + "_" + i);
-//            textBean.setTabName("emoji");
-//            textBean.setTabId(VideoEditStickerFragment.TAB_ID_EMOJI);
-//            tempList.add(textBean);
-//        }
-//        return tempList;
-//    }
-
-//    private List<TextBean> getAllThugLife(String startPath, int size) {
-//        List<TextBean> tempList = new ArrayList<>();
-//        for (int i = 1; i <= size; i++) {
-//            TextBean textBean = new TextBean();
-//            textBean.setDefaultWidth(dip2px(mContext, 90));
-//            textBean.setDefaultHeight(dip2px(mContext, 90));
-//            if (i < 10) {
-//                textBean.setBackgroundRes(mContext.getResources().getIdentifier(startPath + "0" + i, "drawable", mContext
-//                        .getPackageName()));
-//            } else {
-//                textBean.setBackgroundRes(mContext.getResources().getIdentifier(startPath + i, "drawable", mContext
-//                        .getPackageName()));
-//            }
-//            textBean.setName(startPath + "_" + i);
-//            textBean.setTabName("thug_life");
-//            textBean.setTabId(VideoEditStickerFragment.TAB_ID_THUGLIFE);
-//            tempList.add(textBean);
-//        }
-//        return tempList;
-//    }
-
-//    private List<TextBean> getSticker(String startPath, int size, String tabName, long tabId) {
-//        List<TextBean> tempList = new ArrayList<>();
-//        for (int i = 1; i <= size; i++) {
-//            TextBean textBean = new TextBean();
-//            textBean.setDefaultWidth(dip2px(mContext, 90));
-//            textBean.setDefaultHeight(dip2px(mContext, 90));
-//            if (i < 10) {
-//                textBean.setBackgroundRes(mContext.getResources().getIdentifier(startPath + "0" + i, "drawable", mContext
-//                        .getPackageName()));
-//            } else {
-//                textBean.setBackgroundRes(mContext.getResources().getIdentifier(startPath + i, "drawable", mContext
-//                        .getPackageName()));
-//            }
-//            textBean.setName(startPath + i);
-//            textBean.setTabName(tabName);
-//            textBean.setTabId(tabId);
-//            tempList.add(textBean);
-//        }
-//        return tempList;
-//    }
 
 }
