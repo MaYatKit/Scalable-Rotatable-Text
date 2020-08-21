@@ -10,4 +10,4 @@ Basic operations and different styles:<br/>
 
 
 ### Future work
-We plan to add emoji stickers which can not be edited in further, and provide a showcase that demonstrates how to combine a sticker with a photo or an video. Moreover, transforming this project from Java to Kotlin is scheduled.
+We plan to add emoji stickers which can not be edited in the future, and provide a showcase that demonstrates how to combine a sticker with a photo or an video. Moreover, transforming this project from Java to Kotlin is scheduled.
